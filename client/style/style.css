@@ -1,0 +1,162 @@
+body, html {
+  height: 100%;
+}
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+.header__page {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__page .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+}
+.logo__img {
+  height: 60px;
+}
+
+/*
+  Main Nav
+*/
+.main-nav__item {
+  margin-left: .75rem;
+  margin-right: .75rem;
+  padding: 1rem;
+}
+.main-nav__item button {
+  border: 0;
+  background: transparent;
+  color: #463f72;
+  font-size: 12px;
+  cursor: pointer;
+}
+.main-nav__item button:hover {
+  background: transparent;
+  color: #7a73bd;
+}
+.view-container {
+  position: relative;
+}
+
+/*
+  Hero
+*/
+.hero {
+  width: 100%;
+  height: 260px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.category-block__container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.category-block {
+  margin-top: 32px;
+}
+.mini-hero {
+  height: 220px;
+  width: 400px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-text {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  white-space: nowrap;
+  font-weight: 100;
+  text-shadow:3px 3px 3px #111111;
+  font-size: 65px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.category-block__container .nav-text {
+  font-size: 30px;
+  font-weight: 200;
+  color: #444444;
+}
+.mini-hero .title-text {
+  font-size: 18px;
+  font-weight: 200;
+  white-space: normal;
+}
+
+
+.category-block__container {
+  width: 420px;
+}
+
+.category-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-home {
+  background-image: url('images/home.png');
+}
+.mini-hero-home {
+  background-image: url('images/home.png');
+}
+.mini-hero-coaches {
+  background-image: url('images/coaches-small.png');
+}
+.hero-coaches {
+  background-image: url('images/coaches.png');
+}
+.hero-about {
+  background-image: url('images/about.png');
+}
+.mini-hero-about {
+  background-image: url('images/about-small.png');
+}
+.hero-schedules {
+  background-image: url('images/schedules.png');
+}
+.mini-hero-schedules {
+  background-image: url('images/schedules-small.png');
+}
+.hero-registration {
+  background-image: url('images/registration.png');
+}
+.mini-hero-registration {
+  background-image: url('images/registration-small.png');
+}
+.hero-info {
+  background-image: url('images/info.png');
+}
+.mini-hero-info {
+  background-image: url('images/info-small.png');
+}
+.hero-referees {
+  background-image: url('images/referees.png');
+}
+.mini-hero-referees {
+  background-image: url('images/referees-small.png');
+}
+
+
