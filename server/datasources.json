@@ -2,15 +2,5 @@
   "db": {
     "name": "db",
     "connector": "memory"
-  },
-  "mscDS": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "mongodb://localhost:27017/mscdb",
-    "database": "mscdb",
-    "password": "",
-    "name": "mscDS",
-    "user": "",
-    "connector": "mongodb"
   }
 }
