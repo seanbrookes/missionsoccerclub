@@ -34,9 +34,5 @@
   "Role": {
     "dataSource": "db",
     "public": false
-  },
-  "block": {
-    "dataSource": "mscDS",
-    "public": true
   }
 }
