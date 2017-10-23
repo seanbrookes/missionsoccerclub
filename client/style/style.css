@@ -11,7 +11,6 @@ body, html {
   position: relative;
   width: 100%;
   height: 66px;
-  border: 0px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -172,47 +171,57 @@ body, html {
   margin-left: 8px;
 }
 
+.image-container {
+  margin-top: 1rem;
+}
+.image-container .description {
+  min-width: 200px;
+  padding: 1rem;
+  font-size: 16px;
+}
+
+
 .hero-home {
-  background-image: url('images/home.png');
+  background-image: url('images/home.jpg');
 }
 .mini-hero-home {
-  background-image: url('images/home.png');
+  background-image: url('images/home.jpg');
 }
 .mini-hero-coaches {
-  background-image: url('images/coaches-small.png');
+  background-image: url('images/coaches-small.jpg');
 }
 .hero-coaches {
-  background-image: url('images/coaches.png');
+  background-image: url('images/coaches.jpg');
 }
 .hero-about {
-  background-image: url('images/about.png');
+  background-image: url('images/about.jpg');
 }
 .mini-hero-about {
-  background-image: url('images/about-small.png');
+  background-image: url('images/about-small.jpg');
 }
 .hero-schedules {
-  background-image: url('images/schedules.png');
+  background-image: url('images/schedules.jpg');
 }
 .mini-hero-schedules {
-  background-image: url('images/schedules-small.png');
+  background-image: url('images/schedules-small.jpg');
 }
 .hero-registration {
-  background-image: url('images/registration.png');
+  background-image: url('images/registration.jpg');
 }
 .mini-hero-registration {
-  background-image: url('images/registration-small.png');
+  background-image: url('images/registration-small.jpg');
 }
 .hero-info {
-  background-image: url('images/info.png');
+  background-image: url('images/info.jpg');
 }
 .mini-hero-info {
-  background-image: url('images/info-small.png');
+  background-image: url('images/info-small.jpg');
 }
 .hero-referees {
-  background-image: url('images/referees.png');
+  background-image: url('images/referees.jpg');
 }
 .mini-hero-referees {
-  background-image: url('images/referees-small.png');
+  background-image: url('images/referees-small.jpg');
 }
 
 
