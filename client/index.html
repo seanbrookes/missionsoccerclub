@@ -10,37 +10,49 @@
 </head>
 <body>
 
-  <div class="header header__page">
+  <header class="header header__page">
     <div class="logo">
       <img class="logo__img" src="./images/logo-small.png" />
     </div>
     <div class="header__title">Mission Soccer Club</div>
     <div class="layout main-mav">
       <div class="main-nav__item">
-        <button value="home">Home</button>
+        <a href="#" id="home">Home</a>
       </div>
       <div class="main-nav__item">
-        <button value="about">About</button>
+        <a href="#" id="schedules">Programs & Schedules</a>
       </div>
       <div class="main-nav__item">
-        <button value="registration">Registration</button>
+        <a href="#" id="info">Fields & Info</a>
       </div>
       <div class="main-nav__item">
-        <button value="schedules">Schedule</button>
+        <a href="#" id="referees">Referees</a>
       </div>
       <div class="main-nav__item">
-        <button value="info">Info</button>
+        <a href="#" id="coaches">Coaches</a>
       </div>
       <div class="main-nav__item">
-        <button value="referees">Referees</button>
+        <a href="#" id="registration">Registration</a>
       </div>
       <div class="main-nav__item">
-        <button value="coaches">Coaches</button>
+        <a  href="#" id="about">About the Club</a>
       </div>
     </div>
-  </div>
+  </header>
 
   <div id="content"></div>
+
+  <footer class="footer layout">
+    <div class="copyright-text">&copy; 2017 Mission Soccer Club</div>
+    <div class="contact-us layout" >
+      <p>CONTACT US</p>
+      <div class="layout">
+        <img src="./images/email.svg" />
+        <img src="./images/facebook.svg" />
+
+      </div>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
   <script src="./script.js"></script>

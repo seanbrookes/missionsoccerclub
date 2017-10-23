@@ -8,15 +8,20 @@ $(document).ready(function() {
    $('#content').html(aboutEl);
   });
 
-
-  $('.main-nav__item button').click(function(event) {
-    console.log(event.target.value);
-
-    var fileName = './' + event.target.value + '.html';
+  var navFunction = function(event) {
+    var fileName = './' + event.currentTarget.id + '.html';
     $.get( fileName, function( data ) {
       $( "#content" ).html( data );
+      if (event.target.id === 'home') {
+        $('.category-block__link-wrapper').click(navFunction);
+      }
     });
+  };
 
-  });
+  $('.main-nav__item a').click(navFunction);
 
 });
+
+/*
+*
+* */
